@@ -1,0 +1,45 @@
+body{
+    background: #000;
+}
+.box1{
+    width: 500px;
+    height: 500px;
+    background: blue;
+    margin-top: 5%;
+    margin-left: 34%;
+    border-radius: 25px;
+    position: absolute;
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 25px;
+    /* position: absolute; */
+}
+
+#quotes{
+    font-size: 25px;
+    padding: 25px;
+}
+
+#author{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+button{
+    background: hsl(0, 2%, 66%);
+    color: aliceblue;
+    width: 297px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 81px;
+    margin-left: 45px;
+    position:fixed !important;
+}
+button :hover{
+    cursor: pointer;
+    background-color:rgb(233, 223, 223) ;
+}
